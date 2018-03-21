@@ -12,7 +12,7 @@ g1 = len(grid)
 
 y = 0
 while y <= g1:
-    # y = 0
+    y = 0
     for x in range(0, g1):
         print(grid[x][y], end='')
         y += 1
